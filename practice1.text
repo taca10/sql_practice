@@ -1,0 +1,11 @@
+C sql
+D リレーショナルデータベース
+E 行と列
+
+
+SELECT *
+	FROM 家計簿
+	WHERE 入金額 =0
+
+  DELETE FROM 家計簿
+  	WHERE 出金額 = 4000
