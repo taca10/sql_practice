@@ -7,5 +7,9 @@ SELECT *
 	FROM 家計簿
 	WHERE 入金額 =0
 
-  DELETE FROM 家計簿
-  	WHERE 出金額 = 4000
+DELETE FROM 家計簿
+  WHERE 出金額 = 4000
+
+UPDATE 家計簿
+  SET メモ = 'カフェラテ'
+  WHERE 日付 = '2013-02-18'
